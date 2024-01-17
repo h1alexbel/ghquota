@@ -130,9 +130,10 @@ SOFTWARE.
             <include>**/*Spec.*</include>
             <include>**/*Test.*</include>
           </includes>
-          <!-- @todo #1:45min Create a tests for Quota API.
-                We should create a unit and integration tests
-                that runs a cases with exceeded and non-exceeded API quota.
+          <!--
+              @todo #1:45min Create a tests for Quota API.
+               We should create a unit and integration tests
+               that runs a cases with exceeded and non-exceeded API quota.
           -->
           <failIfNoTests>false</failIfNoTests>
         </configuration>
