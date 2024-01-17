@@ -9,9 +9,9 @@
 [![maven central](http://maven-badges.herokuapp.com/maven-central/io.github.h1alexbel/ghquota/badge.svg)](https://search.maven.org/artifact/io.github.h1alexbel/ghquota)
 [![javadoc](https://javadoc.io/badge2/io.github.h1alexbel/ghquota/javadoc.svg)](https://javadoc.io/doc/io.github.h1alexbel/ghquota)
 
-[![Hits-of-Code](https://hitsofcode.com/github/h1alexbel/cdit)](https://hitsofcode.com/view/github/h1alexbel/ghquota)
-[![Lines-of-Code](https://tokei.rs/b1/github/h1alexbel/cdit)](https://github.com/h1alexbel/ghquota)
-[![PDD status](http://www.0pdd.com/svg?name=h1alexbel/cdit)](http://www.0pdd.com/p?name=h1alexbel/ghquota)
+[![Hits-of-Code](https://hitsofcode.com/github/h1alexbel/ghquota)](https://hitsofcode.com/view/github/h1alexbel/ghquota)
+[![Lines-of-Code](https://tokei.rs/b1/github/h1alexbel/ghquota)](https://github.com/h1alexbel/ghquota)
+[![PDD status](http://www.0pdd.com/svg?name=h1alexbel/ghquota)](http://www.0pdd.com/p?name=h1alexbel/ghquota)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/h1alexbel/ghquota/blob/master/LICENSE.txt)
 
 JUnit extension that won't run your tests if request quota in GitHub is exceeded.
