@@ -31,7 +31,7 @@ SOFTWARE.
   </parent>
   <groupId>io.github.h1alexbel</groupId>
   <artifactId>ghquota</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>ghquota</name>
   <description>
     JUnit extension that won't run your tests if request quota in GitHub is exceeded
