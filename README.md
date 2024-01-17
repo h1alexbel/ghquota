@@ -35,14 +35,16 @@ dependencies {
 ```
 
 ```java
+import java.net.URL;
+
 @Test
 @ExtendWith(Quota.class)
 void readsContentInRealGitHub() {
-    ...
+    new URL("api.github.com/repos/h1alexbel/ghquota").getContent();
 }
 ```
 
-We don't want this unit test to be executed when no GitHub Quota API is exceeded.
+We don't want this unit test to be executed when no [GitHub Quota API](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api?apiVersion=2022-11-28) is exceeded.
 The Quota execution condition will prevent JUnit5 from executing the test when you are out of requests.
 
 ## How to Contribute
