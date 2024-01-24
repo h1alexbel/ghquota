@@ -36,9 +36,10 @@ dependencies {
 
 ```java
 import java.net.URL;
+import io.github.h1alexbel.ghquota.QuotaIsFine;
 
 @Test
-@ExtendWith(Quota.class)
+@ExtendWith(QuotaIsFine.class)
 void readsContentInRealGitHub() {
     new URL("api.github.com/repos/h1alexbel/ghquota").getContent();
 }

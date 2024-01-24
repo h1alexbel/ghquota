@@ -3,7 +3,7 @@ architect:
 docker:
   image: l3r8y/rultor-image:1.0.3
 assets:
-  settings.xml: h1alexbel/home#sonatype/settings.xml
+  settings.xml: h1alexbel/home#ghquota/settings.xml
   secring.gpg: h1alexbel/home#sonatype/secring.gpg
   pubring.gpg: h1alexbel/home#sonatype/pubring.gpg
 merge:
