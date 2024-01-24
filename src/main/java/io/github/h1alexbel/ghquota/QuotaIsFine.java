@@ -36,7 +36,7 @@ import org.junit.jupiter.api.extension.ExtensionContext;
  *
  * @since 0.0.0
  */
-public final class Quota implements ExecutionCondition {
+public final class QuotaIsFine implements ExecutionCondition {
 
     @Override
     public ConditionEvaluationResult evaluateExecutionCondition(
@@ -44,7 +44,7 @@ public final class Quota implements ExecutionCondition {
     ) {
         ConditionEvaluationResult ret;
         try {
-            if (Quota.exceeded()) {
+            if (QuotaIsFine.exceeded()) {
                 ret = ConditionEvaluationResult.disabled("Quota exceeded");
             } else {
                 ret = ConditionEvaluationResult.enabled("Quota is fine");
