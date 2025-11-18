@@ -21,7 +21,7 @@ jobs:
     env:
       CONVERT_PATH: /tmp/antlr4-to-bnf-converter
     steps:
-      - uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
       - uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
